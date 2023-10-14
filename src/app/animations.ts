@@ -32,6 +32,14 @@ export const showStateTrigger = trigger('shownState', [
     ])
 ]);
 
+export const checkButtonTrigger = trigger('checkButton', [
+    transition('* => checked', [
+      animate('400ms ease-in', style({
+        transform: 'scale(0.4)'
+      }))
+    ])
+  ])
+
 
 //aplicando animação em elementos não anexados ao dom 
 // export const showStateTrigger = trigger('shownState', [
@@ -54,7 +62,7 @@ export const showStateTrigger = trigger('shownState', [
 // ]);
 
 
-//aplicando animação em elementos não anexados ao dom com estado void "coringa"
+//aplicando animação em elementos não anexados ao dom com estado void e estado corigna
 // export const showStateTrigger = trigger('shownState', [
 //     transition('void => *', [
 //         style({
