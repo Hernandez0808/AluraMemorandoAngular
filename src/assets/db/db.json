@@ -34,6 +34,13 @@
       "statusFinalizado": true,
       "categoria": "Casa",
       "prioridade": "Alta"
+    },
+    {
+      "id": 8,
+      "descricao": "nova",
+      "statusFinalizado": true,
+      "categoria": "Casa",
+      "prioridade": "Normal"
     }
   ]
 }
